@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/941852acca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="main-ui" class="main-ui">
+        
+        <h1 id="main-title" class="main-title"><i id="paper-block-icon" class="paper-block-icon fa-solid fa-book fa-2x"></i>Shopping List</h1>
+        <form id="item-form">
+            <input type="text" id="item-input" class="item-input" placeholder="Item" name="item">
+            <button type="submit" id="add-item-button" class="add-item-button">
+                <i id="add-item-icon" class="add-item-icon fa-solid fa-plus"></i>
+                Add Item
+            </button>
+        </form>
+    </header>
+    <main class="hidden">
+        <input type="text" id="items-filter" class="items-filter" placeholder="Filter Items">
+        <section id="items-list" class="items-list">
+            <!-- <div class="item-container">
+                <p>Hey</p>
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="item-container">
+                <p>Hello</p> 
+                <i class="fa-solid fa-x"></i>
+            </div> -->
+        </section>
+        <button id="clear-all-button" class="clear-all-button">Clear all</button>
+    </main>
+</body>
+</html>
