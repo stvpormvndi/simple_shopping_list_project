@@ -89,12 +89,14 @@ main {
     /* grid-column: 1 / 11; */
     min-height: var(--MH);
     padding: 0 0.3rem;
+    margin-bottom: 1rem;
 }
 
 #clear-all-button {
     /* grid-column: 1 / 11; */
     min-height: var(--MH);
     background-color: var(--W);
+    margin-top: 1rem;
 }
 
 #items-list {
